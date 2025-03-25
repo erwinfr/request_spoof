@@ -8,6 +8,7 @@ To capture the originating IP, your website or other tools need to be configured
 #loggen_create_urls
 The loggen_create_urls.py program takes an URL, output filename and site type as input.
 usage: loggen_create_urls.py [-h] url outputfile cmstype
+
 cmstype could be basic, wordpress or sitemapped:
   - basic will try to find url using hrefs on the page
   - wordpress will try to retrieve the wp-sitemap.xml file and recursively walk through it and store all links in the output file
