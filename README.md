@@ -15,6 +15,7 @@ cmstype could be basic, wordpress or sitemapped:
   - sitemapped will try to retrieve the sitemap.xml file and store all links in the output file
 
   example python loggen_create_urls.py https://www.nasa.gov/ nasa wordpress will lookup the wp-sitemap.xml and walk through links in that sitemap.  
-    - Currently this seems only to work with some Wordpress sites that use another sitemap file than wp-sitemap.xml.  Just test and see if it works
+    - Currently this seems not to work with some Wordpress sites that use another sitemap file than wp-sitemap.xml.  Just test and see if it works. If not, you can try the basic flag
     - large CMS sytems seems also limited
+    - Sometimes "false" or outside links are in the output so check the file for correctnes
     
