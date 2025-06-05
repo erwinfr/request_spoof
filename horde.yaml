@@ -7,7 +7,7 @@
   },
   "servers": [
     {
-      "url": "https://stablehorde.net/api/v2"
+      "url": "https://stablehorde.net/api"
     }
   ],
   "paths": {
